@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    top:0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+
+}
+
+.logo
+{
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    
+
+}
+h4{   
+    color: aliceblue;
+    margin: 0 0 20px 0;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 28px;
+   
+}
+
+h3{   
+    color: black;
+    margin: 0 0 20px 0;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 40px;
+   
+}
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+header{
+
+    display: flex;
+    justify-content: space-evenly	;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+   
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+ 
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color: #aa241b;
+
+}
+
+
+.form-box{
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.search{
+    height: 30px;
+    width: 200px;
+    margin-right: 2px;
+}
+
+.search-button{
+    height: 30px;
+    width: 80px;
+    background: #aa241b;
+    border: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: transform .15s ease-out;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background: #752209;
+    transition: 0.2 ease;
+}
+
+.form-box{
+    background: transparent;
+   
+}
+
+
+.embed{
+  
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+ 
+}
+iframe{
+
+    margin-bottom: 60px;
+}
+
+
+img{
+    height: 800px;
+    width: 100;
+
+}
+
+
+
+@media(max-width:692px){
+
+    iframe{
+
+        height: 230px;
+        width: 350px;
+    }
+    
+   
+.form-box{
+    margin-top: 60px;
+   
+}
+
+
+    .search-button{
+        height: 30px;
+        width: 80px;
+        background: #aa241b;
+        border: none;
+        color:white;
+        font-family: sans-serif;
+        font-size: 20px;
+        transition: transform .15s ease-out;
+        cursor: pointer;
+        margin-top: 0;
+    }
+
+    header{
+        top:0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        padding-block-end: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px 0%  ;
+    }
+    
+
+
+   .logo{
+    position:absolute;
+    top: 10px;
+    text-align: center;
+    bottom: 10px;
+    margin-bottom: 35px;
+  }
+
+  h4{
+  
+         text-align: center;
+      
+}
+
+  li, a, button{
+  
+        position:relative;
+        left:0;
+        width:100%;
+        margin-top: 35px;
+        font-size: 25px;
+        padding: 0px 0% ;
+        text-align: center;
+    }
+
+    .nav_links li{
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+       
+    }
+
+    .wraper-container{
+        margin-top:10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    img{
+        width: 350px;
+        height: 230px;
+    }
+    
+ul{
+    margin-top: 35px;
+    padding: 0px 0px 0px 0px;
+}
+}
+
+@media(max-height:400px){
+    header{
+        top:0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        padding-block-end: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 10%  ;
+    }
+    .wraper-container{
+        margin-top:10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    img{
+        width: 600px;
+        height: 370px;
+    }
+
+}

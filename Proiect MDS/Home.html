@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="stilizare_Home.css">
+      
+    </head>
+
+    <body>
+         
+        <header>
+            
+                <div class="logo">
+                        <h4><a href="Home.html">Biciclete.ro</a></h4>      
+                </div>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Forum.html">Routes</a></li>
+                        <li><a href="Tutorials.html">Tutorials</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="History.html">History</a></li>
+                        <li><a href="Pagina de start.html">Account</a></li>
+                        <li><a href="Game.rar" download="Game">
+                            Game Download
+                          </a></li>
+                    </ul>
+                </nav>    
+        </header>
+        
+       
+
+       <div class="wrap">
+        <div class="container">
+            <div class="column">
+            <div class="txt">
+            <h3>Welcome!</h3>
+            </div>
+            <h2>Welcome to our website dedicated for bikes. We have a very interesting forum where you can ask questions and answer, a tutorial section full of helpful videos and a beautiful photo gallery. Go create an account and enjoy our website.</h2>
+        
+            
+
+            <div class="dropdown">
+                    <button class="dropbtn">Account options</button>
+                    <div class="dropdown-content">
+                        <a href="Account.html">Manage account</a>
+                        <a href="Pagina de start.html">Create account</a>
+                    </div>
+                  </div>
+
+
+
+
+
+            </div>
+
+            <div class="column">
+            <div class="txt">
+            <h3>Video of the week:</h3>
+            </div>
+            <iframe width="700" height="410" src="https://www.youtube.com/embed/eFLMa_WNvvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+        
+        <div class="culori">
+                <a onclick="schimba_culoarea('salmon')" id="salmon">#f8c3af</a>
+                <a onclick="schimba_culoarea('green')" id="green">#c0ffb3</a>
+                <a onclick="schimba_culoarea('blue')" id="blue">#bbded6</a>
+                <a onclick="schimba_culoarea('yellow')" id="yellow">#deff8b</a>
+                <a onclick="schimba_culoarea('white')" id="white">white</a>
+            </div>
+            <div class="context_menu">
+                <li id="reload"><a onclick="myFunction()">Reload</a></li>
+                <li id="c1"><a onclick="myFunction2()">Back</a></li>
+                <li id="c2"><a onclick="myFunction3()">Background</a></li>
+                
+              </div>
+
+            <script  type="text/javascript" src="Home.js"> </script>
+        </body>
+          
+</html>
